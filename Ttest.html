@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  
+  <body>
+	<div class="back">
+		<span><a href="main.html">Back</a></span>
+	</div>
+	
+	<div class="top_banner">
+		<h1>Two-tail test </h1>
+	</div>
+  
+	<div class = "ttest">
+		<p>In this section we discuss what modelling we used to interpret the data.</p>
+		<h3>Definition:</h3>
+		<p>A two-tailed test shows comparisons between two groups that have different averages. For instances, checking whether a coin is fair. 
+		In our case,test if our null hypothesis supported or unsupported is by getting the p-value. 
+		<p>Firstly, we used excel by inputting the results from our experiment in a table then using the =ttest to get a p-value. To get a second opinion, we turned to R commander which gave us the same results.Membrane vs blue gave us a p-value of 0.34 and membrane vs red gave us 0.31. 
+		This means since the p-value is greater or equal to 0.05, we can conclude that there is no significant difference. The null is correct, we fail to reject the null and therefore there is no relationship between membrane and mechanical keyboards</p>
+	<div class="container">
+	<h2>Click on images for full picture.</h2>
+	<img src="http://www.socscistatistics.com/images/t_independent_means.png" alt="mvsb" height="200" width="200">
+	<a href="./images/summary1.png"><img alt="sum1" src="./images/summary1.png" height="400" width="400"></a>
+	<a href="./images/summary2.png"><img alt="sum2" src="./images/summary2.png" height="400" width="400"></a>
+	<a href="./images/ttest_membrane_blue.png"><img alt="mblue" src="./images/ttest_membrane_blue.png" height="400" width="400"></a>
+	<a href="./images/ttest_membrane_blue.png"><img alt="mred" src="./images/ttest_membrane_red.png" height="400" width="400"></a>
+	</div>
+	</div>
+  </body>
+</html>

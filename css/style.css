@@ -1,0 +1,151 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav span{
+  margin:0px;
+  padding:50px;
+  text-align:center;
+  position:static;
+} 
+
+.top_banner  {
+	background-image:url('../images/Banner.png');
+	height:190px;
+	padding:60px 95px 0 95px;
+	border: solid 1px;
+	margin-bottom:10px;
+}
+
+.keyboard {
+  background-image:url('../images/keyboard.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.keyboard .container {
+  position: relative;
+  top:50px;
+  margin: 10px;
+}
+
+.keyboard h1 {
+  color: rgb(86, 206, 235);
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  position: center;
+}
+
+.keyboard p {
+  font-size: 20px;
+  color: rgb(135, 206, 235);
+}
+
+.paragraph1{
+	font-size: 18px;
+	background-image:url('../images/Banner.png');
+}
+
+
+.method{
+	font-size: 18px;
+}
+
+.learn-more {
+  color: #00b0ff;
+}
+
+.back{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.theory{
+	background-image:url('../images/Banner.png');
+}
+
+.theory .container{
+	font-size: 18px;
+}
+
+.table{
+	background-image:url('../images/Banner.png');
+	padding:15px;
+	font-size: 20px;
+	font-weight: bold;
+}
+td{
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid green;
+}
+
+.equipment{
+	background-image:url('../images/Banner.png');
+}
+
+.membrane{
+	padding: 60px;
+	font-size: 18px;
+}
+
+.membrane>.container{
+    top: 100px;
+    right: 60px;
+}
+
+.mechanical{
+	padding: 60px;
+	font-size: 18px;
+}
+
+.mechanical>.container{
+    top: 100px;
+    right: 60px;
+}
+
+.method{
+	background-image:url('../images/Banner.png');
+}
+
+.ttest{
+	background-image:url('../images/Banner.png');
+}
+
+.table >.paragraph{
+	color: red;
+	position: center-right;
+}
+
+.reflective1{
+	background-image:url('../images/Banner.png');
+	padding: 50px;
+	font-size: 18px;
+	border: 1px solid black; 
+}
+a{
+	font-size: 1.5em;
+}
+
+.reflective2{
+	background-image:url('../images/Banner.png');
+	padding: 50px;
+	font-size: 18px;
+	border: solid 1px;
+}
+
+.container2{
+	background-image:url('../images/Banner.png');
+	font-size: 18px;
+}
+.container3{
+	background-image:url('../images/Banner.png');
+	font-size: 18px;
+}
